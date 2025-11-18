@@ -97,7 +97,20 @@ export const TRAINING_PROTOCOLS = Object.freeze([
     intervals: [
       { durationMinutes: 0.33, targetZoneId: 5, type: "effort" },
       { durationMinutes: 0.17, targetZoneId: 1, type: "recovery" },
-      // ... répété 8 fois (simplifié ici pour la lisibilité)
+      { durationMinutes: 0.33, targetZoneId: 5, type: "effort" },
+      { durationMinutes: 0.17, targetZoneId: 1, type: "recovery" },
+      { durationMinutes: 0.33, targetZoneId: 5, type: "effort" },
+      { durationMinutes: 0.17, targetZoneId: 1, type: "recovery" },
+      { durationMinutes: 0.33, targetZoneId: 5, type: "effort" },
+      { durationMinutes: 0.17, targetZoneId: 1, type: "recovery" },
+      { durationMinutes: 0.33, targetZoneId: 5, type: "effort" },
+      { durationMinutes: 0.17, targetZoneId: 1, type: "recovery" },
+      { durationMinutes: 0.33, targetZoneId: 5, type: "effort" },
+      { durationMinutes: 0.17, targetZoneId: 1, type: "recovery" },
+      { durationMinutes: 0.33, targetZoneId: 5, type: "effort" },
+      { durationMinutes: 0.17, targetZoneId: 1, type: "recovery" },
+      { durationMinutes: 0.33, targetZoneId: 5, type: "effort" },
+      { durationMinutes: 0.17, targetZoneId: 1, type: "recovery" },
     ],
   },
   {
